@@ -1,10 +1,7 @@
 /*Variables*/
-$font-text: "Roboto",
-sans-serif;
-$font-header: "Open Sans",
-sans-serif;
-$font-logo: "Great Vibes",
-cursive;
+$font-text: "Roboto", sans-serif;
+$font-header: "Open Sans", sans-serif;
+$font-logo: "Great Vibes", cursive;
 $color-main: #2c2c54;
 $color-splash: #ffff;
 $color-violet: #8e44ad;
@@ -235,7 +232,6 @@ section {
 }
 
 .portfolio-image {
-
   .in-progress,
   .future {
     position: relative;
@@ -284,7 +280,7 @@ section {
 
 .footer-list i {
   font-size: 30px;
-  background: $color-main;
+  background: $color-violet;
   width: 60px;
   height: 60px;
   line-height: 60px;
