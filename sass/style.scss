@@ -231,22 +231,17 @@ section {
   }
 }
 
-.portfolio-image {
-  .in-progress,
-  .future {
-    position: relative;
-  }
+.portfolio-image img {
+  position: relative;
+}
 
-  h3 {
-    position: absolute;
-    padding-right: 20px;
-    text-align: left;
-    width: 100%;
-    top: 37%;
-    left: 10%;
-    color: $color-splash;
-    font-size: 24px;
-  }
+.portfolio-image h3 {
+  position: absolute;
+  padding-right: 20px;
+  top: 37%;
+  left: 10%;
+  color: $color-splash;
+  font-size: 24px;
 }
 
 .future {
