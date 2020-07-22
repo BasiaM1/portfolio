@@ -3,7 +3,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -39,7 +40,8 @@ section {
   left: 50%;
   width: 50px;
   height: 10px;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   background: #FF4612;
 }
 
@@ -67,14 +69,19 @@ section {
 }
 
 .splash-inner {
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
 }
 
@@ -105,7 +112,8 @@ section {
   left: 50%;
   width: 100px;
   height: 10px;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   background: #FF4612;
 }
 
@@ -192,6 +200,7 @@ section {
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
+  -webkit-transition: all 1s;
   transition: all 1s;
 }
 
@@ -201,13 +210,15 @@ section {
 }
 
 .portfolio-image {
-  box-shadow: 0 0 6px #2c2c54;
+  -webkit-box-shadow: 0 0 6px #2c2c54;
+          box-shadow: 0 0 6px #2c2c54;
 }
 
 .portfolio-image img {
   width: 100%;
   height: 250px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .portfolio-image img {
@@ -224,7 +235,8 @@ section {
 }
 
 .future img {
-  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
 }
 
 /*Footer*/
@@ -258,12 +270,14 @@ section {
   line-height: 60px;
   color: #ffff;
   border-radius: 50%;
+  -webkit-transition: all 1s;
   transition: all 1s;
   text-align: center;
 }
 
 .footer-list i:hover {
-  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 /* Media */
@@ -315,7 +329,8 @@ section {
     text-align: center;
   }
   .footer-list i:hover {
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,10 +1,14 @@
 /*Variables*/
-$font-text: "Roboto", sans-serif;
-$font-header: "Open Sans", sans-serif;
-$font-logo: "Great Vibes", cursive;
+$font-text: "Roboto",
+sans-serif;
+$font-header: "Open Sans",
+sans-serif;
+$font-logo: "Great Vibes",
+cursive;
 $color-main: #2c2c54;
 $color-splash: #ffff;
 $color-violet: #8e44ad;
+$color-orange: #FF4612;
 $transition: all 1s;
 
 /*Global*/
@@ -48,7 +52,7 @@ section {
   width: 50px;
   height: 10px;
   transform: translateX(-50%);
-  background: $color-violet;
+  background: $color-orange;
 }
 
 /*Splash*/
@@ -85,7 +89,7 @@ section {
 
 .splash i {
   font-size: 30px;
-  background: $color-violet;
+  background: $color-orange;
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -113,7 +117,7 @@ section {
   width: 100px;
   height: 10px;
   transform: translateX(-50%);
-  background: $color-violet;
+  background: $color-orange;
 }
 
 .splash-inner {
@@ -152,7 +156,7 @@ section {
     color: $color-splash;
 
     &:hover {
-      color: $color-violet;
+      color: $color-orange;
     }
   }
 }
@@ -167,8 +171,8 @@ section {
     margin: 0 auto;
     padding: 48px 0;
     font-size: 24px;
-    border-top: 5px solid $color-violet;
-    border-bottom: 5px solid $color-violet;
+    border-top: 5px solid $color-orange;
+    border-bottom: 5px solid $color-orange;
   }
 }
 
@@ -203,7 +207,7 @@ section {
     min-width: 120px;
     margin: 24px auto;
     padding: 14px;
-    background-color: $color-violet;
+    background-color: $color-orange;
     border-radius: 5px;
     border-width: 2px;
     border-style: solid;
@@ -216,7 +220,7 @@ section {
 
     &:hover {
       background-color: $color-splash;
-      color: $color-violet;
+      color: $color-orange;
     }
   }
 }
@@ -254,6 +258,8 @@ section {
 
 .page-footer {
   margin-top: 20px;
+  background: black;
+  color: white;
 }
 
 .page-footer p {
@@ -276,7 +282,7 @@ section {
 
 .footer-list i {
   font-size: 30px;
-  background: $color-violet;
+  background: $color-orange;
   width: 60px;
   height: 60px;
   line-height: 60px;
