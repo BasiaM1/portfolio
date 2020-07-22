@@ -11,14 +11,16 @@ body {
   padding: 0;
   line-height: 1.7;
   font-family: "Roboto", sans-serif;
-  color: #2c2c54;
+  color: black;
   text-align: center;
 }
 
 .container {
-  max-width: 1140px;
-  padding: 0 20px;
+  width: 100%;
+  max-width: 1170px;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 section {
@@ -175,6 +177,8 @@ section {
 .portfolio-image {
   margin: 20px 0;
   background: #ffff;
+  box-shadow: 0 0 6px black;
+  overflow: hidden;
 }
 
 .portfolio-image .btn {
@@ -200,18 +204,16 @@ section {
   color: #FF4612;
 }
 
-.portfolio-image {
-  box-shadow: 0 0 6px #2c2c54;
-}
-
-.portfolio-image img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-}
-
 .portfolio-image img {
   position: relative;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: 1.5s;
+}
+
+.portfolio-image img:hover {
+  transform: scale(1.5);
 }
 
 .portfolio-image h3 {
@@ -229,7 +231,6 @@ section {
 
 /*Footer*/
 .page-footer {
-  margin-top: 20px;
   background: black;
   color: white;
 }
@@ -273,9 +274,6 @@ section {
   }
   section {
     padding: 40px 0;
-  }
-  .container {
-    padding: 0;
   }
   .section-title {
     font-size: 26px;

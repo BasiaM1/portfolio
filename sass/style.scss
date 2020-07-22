@@ -5,7 +5,7 @@ $font-header: "Open Sans",
 sans-serif;
 $font-logo: "Great Vibes",
 cursive;
-$color-main: #2c2c54;
+$color-main:black;
 $color-splash: #ffff;
 $color-violet: #8e44ad;
 $color-orange: #FF4612;
@@ -28,9 +28,12 @@ body {
 }
 
 .container {
-  max-width: 1140px;
-  padding: 0 20px;
+  width: 100%;
+  max-width: 1170px;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
 
 section {
@@ -198,6 +201,8 @@ section {
 .portfolio-image {
   margin: 20px 0;
   background: $color-splash;
+  box-shadow: 0 0 6px $color-main;
+  overflow: hidden;
 }
 
 .portfolio-image {
@@ -226,17 +231,17 @@ section {
 }
 
 .portfolio-image {
-  box-shadow: 0 0 6px $color-main;
-
   img {
+    position: relative;
     width: 100%;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
-  }
-}
+    transition: 1.5s;
 
-.portfolio-image img {
-  position: relative;
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
 }
 
 .portfolio-image h3 {
@@ -257,8 +262,8 @@ section {
 /*Footer*/
 
 .page-footer {
-  margin-top: 20px;
-  background: black;
+  // margin-top: 20px;
+  background: $color-main;
   color: white;
 }
 
@@ -307,10 +312,6 @@ section {
 
   section {
     padding: 40px 0;
-  }
-
-  .container {
-    padding: 0;
   }
 
   .section-title {
