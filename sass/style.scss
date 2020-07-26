@@ -275,19 +275,18 @@ section {
 /*Footer*/
 
 .page-footer {
-  // margin-top: 20px;
   background: $color-main;
   color: white;
+  padding: 30px;
 }
 
 .page-footer p {
-  text-align: center;
-  line-height: 118px;
+  padding: 20px;
+
 }
 
 .footer-list {
-  line-height: 118px;
-  text-align: left;
+  text-align: center;
 }
 
 .footer-list {
@@ -332,9 +331,6 @@ section {
   }
 
   /* Splash */
-  // .navigation {
-  //   height: 70px;
-  // }
 
   .navigation ul.menu li {
     margin-right: 10px;
@@ -362,6 +358,7 @@ section {
   /* Footer */
   .page-footer {
     margin: 0;
+    padding: 0 30px;
   }
 
   .page-footer p {

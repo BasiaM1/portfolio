@@ -245,16 +245,15 @@ section {
 .page-footer {
   background: black;
   color: white;
+  padding: 30px;
 }
 
 .page-footer p {
-  text-align: center;
-  line-height: 118px;
+  padding: 20px;
 }
 
 .footer-list {
-  line-height: 118px;
-  text-align: left;
+  text-align: center;
 }
 
 .footer-list li {
@@ -309,6 +308,7 @@ section {
   /* Footer */
   .page-footer {
     margin: 0;
+    padding: 0 30px;
   }
   .page-footer p {
     text-align: center;
