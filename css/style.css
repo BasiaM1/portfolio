@@ -313,6 +313,7 @@ section {
   }
   .footer-list {
     line-height: 60px;
+    margin-left: 20px;
   }
   .footer-list i:hover {
     transform: scale(1.3);
