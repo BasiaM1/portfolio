@@ -248,17 +248,13 @@ section {
   padding: 30px;
 }
 
-.page-footer p {
-  padding: 20px;
-}
-
 .footer-list {
-  text-align: center;
+  padding: 0;
 }
 
 .footer-list li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 25px;
   font-size: 0;
 }
 
@@ -313,19 +309,13 @@ section {
   .page-footer p {
     text-align: center;
     line-height: 50px;
-  }
-  .footer-list i {
-    font-size: 25px;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+    padding-bottom: 0;
   }
   .footer-list {
-    line-height: 50px;
-    text-align: center;
+    line-height: 60px;
   }
   .footer-list i:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
   }
 }
 /*# sourceMappingURL=style.css.map */
