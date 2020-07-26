@@ -291,10 +291,7 @@ section {
     font-size: 26px;
   }
   /* Splash */
-  .navigation {
-    height: 70px;
-  }
-  .navigation ul li {
+  .navigation ul.menu li {
     margin-right: 10px;
   }
   .intro p,
