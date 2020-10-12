@@ -1,14 +1,11 @@
 /*Variables*/
-$font-text: "Roboto",
-sans-serif;
-$font-header: "Open Sans",
-sans-serif;
-$font-logo: "Great Vibes",
-cursive;
-$color-main:black;
+$font-text: 'Roboto', sans-serif;
+$font-header: 'Open Sans', sans-serif;
+$font-logo: 'Great Vibes', cursive;
+$color-main: black;
 $color-splash: #ffff;
 $color-violet: #8e44ad;
-$color-orange: #FF4612;
+$color-orange: #ff4612;
 $transition: all 1s;
 
 /*Global*/
@@ -33,7 +30,6 @@ body {
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
-
 }
 
 section {
@@ -49,7 +45,7 @@ section {
 
 .section-title::after {
   position: absolute;
-  content: "";
+  content: '';
   bottom: -10px;
   left: 50%;
   width: 50px;
@@ -63,7 +59,7 @@ section {
 .splash {
   position: relative;
   height: 100vh;
-  background-image: url("https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url('https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -74,7 +70,7 @@ section {
 
 .splash::before {
   position: absolute;
-  content: "";
+  content: '';
   display: block;
   background-color: #000;
   opacity: 0.5;
@@ -119,7 +115,7 @@ section {
 
 .page-title::after {
   position: absolute;
-  content: "";
+  content: '';
   bottom: -15px;
   left: 50%;
   width: 100px;
@@ -149,7 +145,6 @@ section {
   width: 100%;
   background-color: black;
   z-index: 1;
-  ;
 }
 
 .navigation {
